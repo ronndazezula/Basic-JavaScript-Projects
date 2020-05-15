@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">	
+	<title>Basic JavaScript 3</title>
+</head>
+	<body class="bg-info text-black p-4 mb-3">
+		<div id="math">
+			<h2>Simple Arithmetic</h2><br>
+
+			<p id="mathAdd" onclick="add()">Click here for a simple addition formula.</p><br>
+
+			<p id="mathSub" onclick="subtraction()">Click here for a simple subtraction formula.</p><br>
+
+			<p id="mathMult" onclick="multiplication()">Click here for a simple multiplication formula.</p><br>
+
+			<p id="mathDiv" onclick="division()">Click here for a simple division formula.</p><br>
+
+			<p id="mathMany" onclick="simple_math()">Click here for a simple math formula.</p><br>
+
+			<p id="mathMod" onclick="modulus_op(); color_change()">Click here for an example of a modulus operator.</p><br>
+
+			<p id="mathNeg" onclick="negation_op()">Click here for an example of a negation operator (number 17).</p><br>
+
+			<p id="mathIncr" onclick="increment()">Click here for an example of incrementing (number 17).</p><br>
+
+			<p id="mathDecr" onclick="decrement()">Click here for an example of decrementing (number 17).</p><br>
+
+			<p id="mathRandom" onclick="eulers_number()">Click here for a math object and method example.</p>
+		</div>
+			<br><h2>Now, do your own arithmetic!</h2>
+			<div id="main" class="card card-body">
+				<h2 class="title">Calculate</h2><br>
+				<form class="form-inline mb-3">
+					<div>
+						<input type="text" id="integer1" size="5">&#x2006
+					</div>
+					<input type="radio" name="calc" value="*"> multiply ( * ) </input>&#x2006
+					<input type="radio" name="calc" value="/"> divide ( / ) </input>&#x2006
+					<input type="radio" name="calc" value="+"> add ( + ) </input>&#x2006
+					<input type="radio" name="calc" value="-"> subtract ( - ) </input>&#x2006
+					<div>
+						<input type="text" id="integer2" size="5">
+					</div>
+					&#x2006&#x2006<button type="button" onclick="clear()">Clear</button>
+				</form>
+			<div id="output"></div>
+			<br>
+			<button class="btn btn-dark btn-block" id="button">Click Here for Output</button>
+			<br>
+			<h3>Your Formula</h3>
+			<div id="output" style="width:400px;height:200px;background:lightgrey">
+				<p></p>
+			</div>
+			</div>
+
+		<script src="./js/basic_javascript_3.js"></script>
+	</body>
+</html>
