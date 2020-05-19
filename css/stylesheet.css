@@ -1,0 +1,58 @@
+body {
+    background-color:lightblue;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#dog1 {
+    background-color:darkcyan;
+    color:whitesmoke;
+}
+
+#dog2 {
+    background-color:darkblue;
+    color:whitesmoke;
+}
+
+h4 {
+    background-color:teal;
+    color:whitesmoke;
+}
+
+* {box-sizing: border-box}
+.dogSlides1, .dogSlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: whitesmoke;
+  color: black;
+}

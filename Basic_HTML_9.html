@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+	<title>Basic JavaScript 9</title>
+</head>
+	<body>
+		<h2>Multiple Slideshows with Dogs</h2>
+		<p id=dog1>Dog Slideshow 1:</p>
+		<div class="slideshow-container">
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_1.jpg" style="width:100%">
+		  </div>
+		
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_2.jpg" style="width:100%">
+		  </div>
+		
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_3.jpg" style="width:100%">
+		  </div>
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_4.jpg" style="width:100%">
+		  </div>
+		
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_5.jpg" style="width:100%">
+		  </div>
+		
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_6.jpg" style="width:100%">
+		  </div>
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_7.jpg" style="width:100%">
+		  </div>
+		
+		  <div class="dogSlides1">
+			<img src="./images/thumbnail_8.jpg" style="width:100%">
+		  </div>
+		
+		  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+		</div>
+		
+		<p id=dog2>Dog Slideshow 2:</p>
+		<div class="slideshow-container">
+			<div class="dogSlides2">
+				<img src="./images/thumbnail_9.jpg" style="width:100%">
+			  </div>
+			
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_10.jpg" style="width:100%">
+			  </div>
+			
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_11.jpg" style="width:100%">
+			  </div>
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_12.jpg" style="width:100%">
+			  </div>
+			
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_13.jpg" style="width:100%">
+			  </div>
+			
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_14.jpg" style="width:100%">
+			  </div>
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_15.jpg" style="width:100%">
+			  </div>
+			
+			  <div class="dogSlides2">
+				<img src="./images/thumbnail_16.jpg" style="width:100%">
+			  </div>
+			
+		  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+		</div>
+
+		<div>
+			<br><br><h4>Countdown Timer - Step 154 Assignment</h4>
+			<p>How many seconds would you like to count down from? Enter the number of seconds on the left then click the button.</p>
+			<input id="seconds" value="" />
+			<button onclick="countdownFunction()">Click Here</button><br>
+			<p id="timer"></p>
+		</div>
+
+		<script src="./js/basic_javascript_9.js"></script>
+	</body>
+</html>
